@@ -9,23 +9,19 @@
     <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
-    <blockquote class="quote">
-        <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolores debitis quisquam perferendis, quo molestiae consequatur nulla voluptates deserunt totam beatae facere, porro reprehenderit. Rerum reprehenderit nulla distinctio aperiam sit.</p>
-        <footer>
-            <div class="media">
-                <div class="media__image">
-                    <svg class="icon icon--primary">
-                        <use xlink:href="images/sprite.svg#line"></use>
-                    </svg>
-                </div>
-                <div class="media__body">
-                    <h3 class="media__title quote__author">Samreach Yan</h3>
-                    <p class="quote__organization">Sak Code Team</p>
-                </div>
-            </div>
-        </footer>
-    </blockquote>
+    <div class="collapsible">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">Item 1</h2>
+            <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+        </header>
+        <div class="collapsible__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eveniet maxime non fugiat quia nostrum iusto vel sapiente deserunt voluptates suscipit ipsa, quod minima ullam illum, praesentium beatae ipsam dolores.
+        </div>
+    </div>
+    
 
-</div>
+    <script src="app.js"></script>
 </body>
 </html>
