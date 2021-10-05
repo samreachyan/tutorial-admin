@@ -9,72 +9,75 @@
     <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
-    <section class="block container block-plans">
-        <div class="grid grid--1x3">
-            <div class="plan">
-                <div class="card card--secondary">
-                    <header class="card__header">
-                            <h3 class="plan__name">Entry</h3>
-                            <span class="plan__price">$14</span>
-                            <span class="plan__billing-cycle">/month</span>
-                            <span class="badge badge--secondary badge--small">10% OFF</span>
-                            <span class="plan__description">East start on the cloud</span>
-                    </header>
-                    <div class="card__body">
-                            <ul class="list list--tick">
-                                <li class="list__item">Unlimited Websites</li>
-                                <li class="list__item">Unlimited Bandwidth</li>
-                                <li class="list__item">100 GB SSD Sotrage</li>
-                                <li class="list__item">3 GB RAM</li>
-                            </ul>
-                        <button class="btn btn--outline btn--block">Buy Now</button>
-                    </div>
-                </div>
+    <footer class="block block--dark footer">
+        <div class="container grid footer__sections">
+          <section class="collapsible collapsible--expanded footer__section">
+            <header class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Products</h2>
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </header>
+            <div class="collapsible__content">
+              <ul class="list">
+                <li><a href="#">Website Hosting</a></li>
+                <li><a href="#">Free Automated Wordpress</a></li>
+                <li><a href="#">Migrations</a></li>
+              </ul>
             </div>
-
-            <div class="plan plan--popular">
-                <div class="card card--primary">
-                    <header class="card__header">
-                            <h3 class="plan__name">Entry</h3>
-                            <span class="plan__price">$14</span>
-                            <span class="plan__billing-cycle">/month</span>
-                            <span class="badge badge--primary badge--small">10% OFF</span>
-                            <span class="plan__description">East start on the cloud</span>
-                    </header>
-                    <div class="card__body">
-                            <ul class="list list--tick">
-                                <li class="list__item">Unlimited Websites</li>
-                                <li class="list__item">Unlimited Bandwidth</li>
-                                <li class="list__item">100 GB SSD Sotrage</li>
-                                <li class="list__item">3 GB RAM</li>
-                            </ul>
-                        <button class="btn btn--outline btn--block">Buy Now</button>
-                    </div>
-                </div>
+          </section>
+          <section class="collapsible footer__section">
+            <header class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Company</h2>
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </header>
+            <div class="collapsible__content">
+              <ul class="list">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
             </div>
-
-            <div class="plan">
-                <div class="card card--secondary">
-                    <header class="card__header">
-                            <h3 class="plan__name">Entry</h3>
-                            <span class="plan__price">$14</span>
-                            <span class="plan__billing-cycle">/month</span>
-                            <span class="badge badge--secondary badge--small">10% OFF</span>
-                            <span class="plan__description">East start on the cloud</span>
-                    </header>
-                    <div class="card__body">
-                            <ul class="list list--tick">
-                                <li class="list__item">Unlimited Websites</li>
-                                <li class="list__item">Unlimited Bandwidth</li>
-                                <li class="list__item">100 GB SSD Sotrage</li>
-                                <li class="list__item">3 GB RAM</li>
-                            </ul>
-                        <button class="btn btn--outline btn--block">Buy Now</button>
-                    </div>
-                </div>
+          </section>
+          <section class="collapsible footer__section">
+            <header class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Support</h2>
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </header>
+            <div class="collapsible__content">
+              <ul class="list">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Knowledge Base</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
             </div>
+          </section>
+          <section class="collapsible footer__section">
+            <header class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Domains</h2>
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </header>
+            <div class="collapsible__content">
+              <ul class="list">
+                <li><a href="#">Domain Checker</a></li>
+                <li><a href="#">Domain Transfer</a></li>
+                <li><a href="#">Free Domain</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="footer__brand">
+            <img src="images/logo.svg" alt="" />
+            <p class="footer__copyright">Copyright 2021 Sak Code</p>
+          </section>
         </div>
-    </section>
+    </footer>
+    
 
     <script src="app.js"></script>
 </body>
